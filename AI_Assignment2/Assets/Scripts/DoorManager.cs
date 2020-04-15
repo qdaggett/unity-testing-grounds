@@ -44,6 +44,12 @@ public class DoorManager : MonoBehaviour
         DoorSetup(pathInput.text);
     }
 
+    // When the gun comes out
+    public void SpawnDummyDoors()
+    {
+
+    }
+
     public void DoorSetup(string path)
     {
         // If the file exists
